@@ -36,4 +36,12 @@
         </plugins>
     </build>
 
+    <!-- Add the distributionManagement section here for deployment -->
+    <distributionManagement>
+        <repository>
+            <id>example-repo</id>  <!-- Unique identifier for your repository -->
+            <url>http://your-repository-url</url>  <!-- URL of the repository -->
+        </repository>
+    </distributionManagement>
+
 </project>
